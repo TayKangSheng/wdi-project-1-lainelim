@@ -4,7 +4,7 @@ This is a single player game where the player’s objective is to catch as many 
 
 ##Getting started
 
-play the game [here]https://wdi-sg.github.io/wdi-project-1-lainelim/
+play the game [here](https://wdi-sg.github.io/wdi-project-1-lainelim/)
 
 ##Built with
 1. Javascript
@@ -37,4 +37,4 @@ Checks if the total mouse count (mice released) is 20. If yes, checks if the tot
 
 ###Acknowledgements
 
-artokai’s [Whack-a-thon]http://artokai.net/whack-a-mole-js/
+artokai’s [Whack-a-thon](http://artokai.net/whack-a-mole-js/)
