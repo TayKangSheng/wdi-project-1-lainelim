@@ -1,34 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker');
-
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
 }
 
-h1{
+h1 {
   font-family: "Permanent Marker";
   font-size: 50px;
   color: #d9bb91;
   padding-top: 20px;
 }
 
-button{
+button {
   font-family: "Permanent Marker";
   font-size: 25px;
   color: #d9bb91;
-  padding:10px;
+  padding: 10px;
   border-radius: 15px;
   background-color: black;
-  display: inline-block;;
+  display: inline-block;
+  ;
 }
 
-.playroom{
+.playroom {
   margin: 20px;
 }
 
-.main{
+.main {
   font-family: "Permanent Marker";
   color: #d9bb91;
   font-size: 25px;
@@ -38,7 +38,7 @@ button{
   margin: 0 auto;
 }
 
-.mousehole{
+.mousehole {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -47,40 +47,38 @@ button{
   border: 5px solid #d9bb91;
 }
 
-.mouse{
+.mouse {
   width: 140px;
-  bottom: 0
-  overflow: hidden;
-  position:relative;
+  bottom: 0 overflow: hidden;
+  position: relative;
 }
 
-.pow{
+.pow {
   width: 150px;
   height: auto;
   position: relative;
   bottom: 150px
 }
 
-.mouse.visible{
+.mouse.visible {
   transition: bottom 0.5s linear;
-	bottom: 0;
+  bottom: 0;
 }
 
-.mouse.hidden{
+.mouse.hidden {
   transition: bottom 0.3s linear;
   bottom: -100%
 }
 
-.pow.hidden{
-
+.pow.hidden {
   display: none;
 }
 
-.pow.visible{
-  display:block;
+.pow.visible {
+  display: block;
   margin-top: 30px
 }
 
-.scoreboard{
+.scoreboard {
   margin-top: -20px
 }
