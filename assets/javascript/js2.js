@@ -41,8 +41,6 @@ var game = {
   catchMouse: function () {
     this.mouse.onclick = function () {
       this.pow = this.pows[this.i]
-      this.mouse.classList.remove('visible')
-      this.mouse.classList.add('hidden')
       this.pow.classList.remove('hidden')
       this.pow.classList.add('visible')
       this.points++
